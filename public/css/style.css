@@ -1,18 +1,17 @@
-div{
-color: white;
-
-
+div {
+    color: white;
 }
+
 a:hover {
     color: cornflowerblue;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
-#navbar{
+#navbar {
     margin: auto;
     height: 10%;
     width: 40%;
@@ -22,21 +21,19 @@ a{
     border: 2px black solid;
     border-radius: 20px;
     font-family: "Lucida Console";
-
 }
+
 body {
     background-color: #2d3748;
 }
 
-
-
-#home{
+#home {
     width: 40px;
     display: flex;
     margin: auto;
-
 }
-#overmij{
+
+#overmij {
     display: flex;
     margin: auto;
 }
@@ -45,26 +42,25 @@ body {
     width: 100px;
     display: flex;
     margin: auto;
-
 }
 
-#logo{
+#logo {
     padding 5px;
     width: 30px;
     display: flex;
-    margin: 25px ;
+    margin: 25px;
     justify-self: flex-start;
 }
 
-#item{
+#item {
     height: 50%;
     width: 100%;
     display: flex;
     color: #2d3748;
 }
-#tekstwelkom{
-    display: flex;
 
+#tekstwelkom {
+    display: flex;
 }
 
 .wrapper {
@@ -86,7 +82,7 @@ body {
     font-family: "Lucida Console";
 }
 
-#projectenbox{
+#projectenbox {
     height: 100px;
     width: 500px;
     background-color: #4a5568;
@@ -107,81 +103,82 @@ body {
     }
 }
 
-h4{
+h4 {
     color: white;
     font-family: "Lucida Console";
     background-color: #4a5568;
     border: 2px solid black;
-    border-radius: 20px ;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-
-
 }
-h2{
+
+h2 {
     font-family: "Lucida Console";
 }
-.container{
 
-
-}
+.container {}
 
 h1 {
     color: white;
 }
-a{
+
+a {
     color: #fff;
 }
+
 nav {
     margin: auto;
-    height: 60px  ;
+    height: 60px;
     width: 60%;
     display: flex;
     background-color: #4a5568;
     display: flex;
-
     border-radius: 20px;
     font-family: "Lucida Console";
 }
+
 nav ul {
     padding: 0;
-    margin: -15px ;
+    margin: -15px;
     list-style: none;
     position: relative;
 }
 
-nav a{
-    width: 200px ;
-    display:block;
-    padding:0 10px;
-    color:#FFF;
-    font-size:20px;
+nav a {
+    width: 200px;
+    display: block;
+    padding: 0 10px;
+    color: #FFF;
+    font-size: 20px;
     line-height: 60px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-
-nav ul ul{
+nav ul ul {
     visibility: hidden;
     position: absolute;
     top: 60px;
-    width: 50px ;
-    opacity:0;
-    transition:all 0.5s ease-in-out;
-}
-nav ul li:hover > ul{
-    visibility: visible;
-    opacity:1;
+    width: 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
+nav ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+
 /* Fisrt Tier Dropdown */
+
 nav ul ul li {
-    width:100px;
-    float:none;
-    display:block;
+    width: 100px;
+    float: none;
+    display: block;
     position: relative;
 }
 
-li :hover{
+li :hover {
     color: cornflowerblue;
 }
