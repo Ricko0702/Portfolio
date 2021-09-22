@@ -45,7 +45,6 @@ body {
 }
 
 #logo {
-    padding 5px;
     width: 30px;
     display: flex;
     margin: 25px;
@@ -116,8 +115,6 @@ h4 {
 h2 {
     font-family: "Lucida Console";
 }
-
-.container {}
 
 h1 {
     color: white;
