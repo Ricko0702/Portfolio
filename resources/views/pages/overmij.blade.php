@@ -12,29 +12,29 @@
 <div id="navbar">
 
     <div id="logo">
-        <img src="/images/logo.png" alt="plaatje van logo">
+    <img src="/images/logo.png" alt="plaatje van logo">
     </div>
 
     <div id="home">
-        <a href="/"><h1>Home</h1></a>
+    <a href="/"><h2>Home</h2></a>
     </div>
 
     <div class="container">
-        <nav>
-            <ul>
-                <li><a href="/projecten"><h2>Projecten</h2></a>
-                    <ul>
-                        <li><a href="/projecten/deze-website"><h3>Deze Website</h3></a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+            <nav>
+                <ul>
+                    <li><a href="/projecten"><h3>Projecten</h3></a>
+                        <ul>
+                            <li><a href="/projecten/deze-website"><h4>Deze Website</h4></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
 
 
-    </div>
+   </div>
 
     <div id="overmij">
-        <a href="/overmij"><h2>Over mij</h2></a>
+    <a href="/overmij"><h2>Over mij</h2></a>
     </div>
 </div>
 
