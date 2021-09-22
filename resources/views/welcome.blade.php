@@ -46,7 +46,7 @@
 
 
 
-<div class="wrapper">
+<div class="typen">
     <div class="typing-demo">
         Welkom op mijn portfolio website.
     </div>
