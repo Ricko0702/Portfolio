@@ -38,11 +38,7 @@
     </div>
 </div>
 
-<div id="item"></div>
 
-<div id="item"></div>
-
-<div id="item"></div>
 
 <h1>hallo</h1>
 
