@@ -88,6 +88,8 @@ body {
     display: flex;
     border: 2px black solid;
     border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 @keyframes typing {
