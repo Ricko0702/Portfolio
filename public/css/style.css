@@ -182,3 +182,7 @@ nav ul ul li {
 li :hover {
     color: cornflowerblue;
 }
+
+p {
+    font-family: "Lucida Console";
+}
