@@ -110,6 +110,11 @@ h4 {
     border-style: groove;
 }
 
+h3 {
+    color: white;
+    font-family: "Lucida Console";
+}
+
 h2 {
     font-family: "Lucida Console";
 }
