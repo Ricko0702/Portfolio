@@ -34,3 +34,5 @@ Route::get('/projecten/deze-website', function () {
 });
 
 Route::get('/row', [\App\Http\Controllers\RowController::class,'rowItems']);
+
+Route::get('/date', [\App\Http\Controllers\Daycontroller::class,'date']);

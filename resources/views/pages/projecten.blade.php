@@ -39,9 +39,7 @@
 </div>
 
 <div id="projectenbox">
-    <p>Deze website. 
-        
-    </p>
+    <p>Deze website. </p>
 
 </div>
 </body>

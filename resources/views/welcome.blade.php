@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PortfolioWebsite Rick</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="images/logo.png">
 </head>
 <body>
 <div id="navbar">
@@ -37,13 +38,6 @@
     <a href="/overmij"><h2>Over mij</h2></a>
     </div>
 </div>
-
-<div id="item"></div>
-
-<div id="item"></div>
-
-<div id="item"></div>
-
 
 
 <div class="typen">

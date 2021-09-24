@@ -52,13 +52,6 @@ body {
     justify-self: flex-start;
 }
 
-#item {
-    height: 50%;
-    width: 100%;
-    display: flex;
-    color: #2d3748;
-}
-
 #tekstwelkom {
     display: flex;
 }
