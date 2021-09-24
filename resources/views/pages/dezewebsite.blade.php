@@ -8,6 +8,7 @@
     <title>PortfolioWebsite Rick</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="images/logo.png">
+    
 </head>
 
 <body>
