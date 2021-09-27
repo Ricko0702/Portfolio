@@ -25,7 +25,7 @@
 <div class="container">
         <nav>
             <ul>
-                <li><a href="/projecten"><h3>Projecten</h3></a>
+                <li><a href="/projecten"><h3>>Projecten<</h3></a>
                     <ul>
                         <li><a href="/projecten/deze-website"><h4>Deze Website</h4></a></li>
                     </ul>

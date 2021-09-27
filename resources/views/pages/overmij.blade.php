@@ -35,7 +35,7 @@
    </div>
 
     <div id="overmij">
-    <a href="/overmij"><h2>Over mij</h2></a>
+    <a href="/overmij"><h2>>Over mij<</h2></a>
     </div>
 </div>
 
