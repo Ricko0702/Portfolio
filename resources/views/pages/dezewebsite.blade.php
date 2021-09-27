@@ -40,13 +40,10 @@
 <a href="/overmij"><h2>Over mij</h2></a>
 </div>
 </div>
-    <div id="item"></div>
 
-    <div id="item"></div>
-
-    <div id="item"></div>
-
-
+    <div id="copyright">
+<p>Created by Career Rick van Assen. © 2020</p>
+</div>
 
 </body>
 

@@ -40,8 +40,13 @@
 </div>
 
 <div id="projectenbox">
-    <p>Deze website. </p>
+    <a href="/projecten/deze-website"><p>Deze website</p></a>
 
 </div>
+
+<div id="copyright">
+<p>Created by Career Rick van Assen. © 2020</p>
+</div>
+
 </body>
 </html>

@@ -45,5 +45,9 @@
     Mijn naam is Rick van Assen 
 </h3>
 
+<div id="copyright">
+<p>Created by Career Rick van Assen. © 2020</p>
+</div>
+
 </body>
 </html>
