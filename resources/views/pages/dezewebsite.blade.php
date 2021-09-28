@@ -41,8 +41,14 @@
 </div>
 </div>
 
-    <div id="copyright">
-<p>Created by Career Rick van Assen. © 2020</p>
+<div id="dezewebsitetekst">
+
+</div>
+
+<div id="copyright">
+
+<p>Created by Rick van Assen. © 2020</p>
+
 </div>
 
 </body>

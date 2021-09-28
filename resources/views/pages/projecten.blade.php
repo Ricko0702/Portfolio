@@ -39,13 +39,17 @@
     </div>
 </div>
 
-<div id="projectenbox">
+<div id="projectboxen">
+
+    <div id="projectenbox">
     <a href="/projecten/deze-website"><p>Deze website</p></a>
+
+    </div>
 
 </div>
 
 <div id="copyright">
-<p>Created by Career Rick van Assen. © 2020</p>
+<p>Created by Rick van Assen. © 2020</p>
 </div>
 
 </body>

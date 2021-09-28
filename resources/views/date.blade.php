@@ -11,9 +11,10 @@
 <body>
 <h1>My Rows</h1>
 
-@for($i = 0 ; $i<= $rows ; $i++ )
+@for
 
-    <div>{{$i}}</div>
+
+    
 
 @endfor
 </body>

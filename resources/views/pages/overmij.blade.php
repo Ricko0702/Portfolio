@@ -39,14 +39,15 @@
     </div>
 </div>
 
+<div id=overmijtekst>
 
-
-<h3>
+    <h3>
     Mijn naam is Rick van Assen 
-</h3>
+    </h3>
+</div>
 
 <div id="copyright">
-<p>Created by Career Rick van Assen. © 2020</p>
+<p>Created by Rick van Assen. © 2020</p>
 </div>
 
 </body>
