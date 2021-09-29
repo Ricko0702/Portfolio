@@ -20,28 +20,26 @@
 <a href="/"><h2>Home</h2></a>
 </div>
 
-<div class="container">
-        <nav>
-            <ul>
-                <li><a href="/projecten"><h3>>Projecten<</h3></a>
-                    <ul>
-                        <li><a href="/projecten/deze-website"><h4>Deze Website</h4></a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+<div id="projecten">
+    <h2>Projecten</h2>
 
 
-</div>
+   </div>
 
 <div id="overmij">
 <a href="/overmij"><h2>Over mij</h2></a>
 </div>
 </div>
 
+<div id="terug">
+    <a href="/projecten">Ga terug</a>
+
+</div>
+
 <div id="dezewebsitetekst">
 
 </div>
+
 
 <div id="copyright">
 

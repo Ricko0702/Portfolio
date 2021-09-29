@@ -20,16 +20,8 @@
     <a href="/"><h2>Home</h2></a>
     </div>
 
-    <div class="container">
-            <nav>
-                <ul>
-                    <li><a href="/projecten"><h3>>Projecten<</h3></a>
-                        <ul>
-                            <li><a href="/projecten/deze-website"><h4>Deze Website</h4></a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+    <div id="projecten">
+    <h2>Projecten</h2>
 
 
    </div>
@@ -42,7 +34,7 @@
 <div id="projectboxen">
 
     <div id="projectenbox">
-    <a href="/projecten/deze-website"><p>Deze website</p></a>
+    <a href="/projecten/deze-website">Deze website</a>
 
     </div>
 

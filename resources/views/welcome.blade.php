@@ -17,7 +17,7 @@
     </div>
 
     <div id="home">
-    <a href="/"><h2>>Home<</h2></a>
+    <h2>Home</h2>
     </div>
 
     <div class="container">
