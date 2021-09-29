@@ -73,17 +73,17 @@ body {
 }
 
 #projectenbox {
-    height: 50px;
-    width: 440px;
+    height: 40px;
+    width: 200px;
     background-color: red;
     display: flex;
     border: 2px black solid;
     border-radius: 20px;
     margin-top: 50px;
-    margin-left: 20px;
     padding-left: 20px;
     font-family: "Lucida Console";
-    padding-top: 5px;
+    padding-bottom: 25px;
+    color: white;
 }
 
 @keyframes typing {
@@ -116,6 +116,10 @@ h3 {
 
 h2 {
     font-family: "Lucida Console";
+}
+
+h2:hover {
+    color: black;
 }
 
 h1 {
@@ -192,7 +196,10 @@ p {
 }
 
 #projectboxen {
-    height: 550px;
+    height: 575px;
+    font-family: "Lucida Console";
+    padding-left: 650px;
+    padding-top: 30px;
 }
 
 #overmijtekst {

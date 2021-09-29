@@ -32,13 +32,30 @@
 </div>
 
 <div id="projectboxen">
-
     <div id="projectenbox">
-    <a href="/projecten/deze-website">Deze website</a>
-
+    <a href="/projecten/deze-website"><h2>Deze website</h2></a>
     </div>
 
+    <div id="projectenbox">
+    <h2>voorbeeld</h2>
+    </div>
+
+    <div id="projectenbox">
+        <h2>voorbeeld</h2>
+
+    
+    
+    </div>
+
+    <div id="projectenbox">
+    <h2>voorbeeld</h2>
+    </div>  
+
+
 </div>
+
+
+
 
 <div id="copyright">
 <p>Created by Rick van Assen. © 2021</p>
