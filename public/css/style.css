@@ -109,11 +109,6 @@ h4 {
     border-style: groove;
 }
 
-h3 {
-    color: white;
-    font-family: "Lucida Console";
-}
-
 h2 {
     font-family: "Lucida Console";
 }
@@ -124,6 +119,10 @@ h2:hover {
 
 h1 {
     color: white;
+}
+
+h4:hover {
+    color: black;
 }
 
 a {
@@ -202,8 +201,22 @@ p {
     padding-top: 30px;
 }
 
+#overmijbox {
+    height: 540px;
+    width: 500px;
+}
+
 #overmijtekst {
-    height: 580px;
+    height: 140px;
+    width: 500px;
+    margin-left: 15px;
+    margin-top: 70px;
+    background-color: red;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 #dezewebsitetekst {
@@ -222,4 +235,15 @@ p {
     padding-left: 10px;
     border-radius: 20px;
     border: 2px black solid;
+}
+
+#foto {
+    height: 275px;
+    width: 275px;
+    margin-left: 1000px;
+    background-color: red;
+    padding-top: 25px;
+    padding-left: 25px;
+    border: 2px black solid;
+    border-radius: 20px;
 }

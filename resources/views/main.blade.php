@@ -10,7 +10,7 @@
     <link rel="icon" href="images/logo.png">
 </head>
 <body>
-
+@yield('body')
 
 
 <footer>

@@ -4,6 +4,7 @@
 Projecten
 @endsection
 
+@section('body')
 <div id="navbar">
 
     <div id="logo">
@@ -47,3 +48,5 @@ Projecten
 
 
 </div>
+
+@endsection

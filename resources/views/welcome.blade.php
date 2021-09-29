@@ -4,7 +4,7 @@
     Home
 @endsection
 
-
+@section('body')
 <div id="navbar">
 
     <div id="logo">
@@ -40,5 +40,4 @@
         Welkom op mijn portfolio website.
     </div>
 </div>
-
-
+@endsection

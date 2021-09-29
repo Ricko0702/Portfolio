@@ -4,6 +4,7 @@
     Deze website
 @endsection
 
+@section('body')
 <div id="navbar">
 
 <div id="logo">
@@ -34,3 +35,4 @@
 
 </div>
 
+@endsection

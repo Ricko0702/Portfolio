@@ -3,6 +3,7 @@
     Over mij
 @endsection
 
+@section('body')
 <div id="navbar">
 
     <div id="logo">
@@ -32,11 +33,21 @@
     </div>
 </div>
 
-<div id=overmijtekst>
+<div id="overmijbox">
 
-    <h3>
-    Mijn naam is Rick van Assen
-    </h3>
+    <div id=overmijtekst>
+
+        <h3>
+        <p>Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opdleiding Software developer op Landstede Zwolle. In mij vrije tijd speel ik games en kijk ik films en series op Netflix.</p>
+        </h3>
+
+    </div>
+
+    <div id="foto">
+        <img src="/images/foto.jpg" alt="foto">
+
+    </div>
+
 </div>
 
-
+@endsection
