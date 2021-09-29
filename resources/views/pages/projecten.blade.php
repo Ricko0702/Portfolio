@@ -49,7 +49,7 @@
 </div>
 
 <div id="copyright">
-<p>Created by Rick van Assen. © 2020</p>
+<p>Created by Rick van Assen. © 2021</p>
 </div>
 
 </body>
