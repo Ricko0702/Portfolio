@@ -78,7 +78,7 @@ body {
     background-color: red;
     display: flex;
     border: 2px black solid;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 50px;
     padding-left: 20px;
     font-family: "Lucida Console";
@@ -213,7 +213,7 @@ p {
     margin-top: 70px;
     background-color: red;
     border: 2px black solid;
-    border-radius: 20px;
+    border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -233,7 +233,7 @@ p {
     margin-left: 20px;
     align-items: center;
     padding-left: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     border: 2px black solid;
 }
 
@@ -245,5 +245,5 @@ p {
     padding-top: 15px;
     padding-left: 15px;
     border: 2px black solid;
-    border-radius: 20px;
+    border-radius: 5px;
 }
