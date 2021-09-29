@@ -238,12 +238,12 @@ p {
 }
 
 #foto {
-    height: 275px;
-    width: 275px;
-    margin-left: 1000px;
+    height: 265px;
+    width: 265px;
+    margin-left: 950px;
     background-color: red;
-    padding-top: 25px;
-    padding-left: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
     border: 2px black solid;
     border-radius: 20px;
 }
