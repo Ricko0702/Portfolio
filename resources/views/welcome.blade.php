@@ -32,6 +32,15 @@
     <div id="overmij">
     <a href="/overmij"><h2>Over mij</h2></a>
     </div>
+
+    <div id=taal>
+    
+    <a href="/en/home">
+    <img src="/images/uk.png" alt="">
+    </a>
+
+    </div>
+
 </div>
 
 

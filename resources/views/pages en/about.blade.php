@@ -1,25 +1,26 @@
 @extends('main')
-@section('title')
-    Over mij
+
+@section('about')
+    about
 @endsection
 
 @section('body')
-<div id="navbar">
+   <div id="navbar">
 
     <div id="logo">
     <img src="/images/logo.png" alt="plaatje van logo">
     </div>
 
     <div id="home">
-    <a href="/"><h2>Home</h2></a>
+    <a href="/en/home"><h2>Home</h2></a>
     </div>
 
     <div class="container">
             <nav>
                 <ul>
-                    <li><a href="/projecten"><h3>Projecten</h3></a>
+                    <li><a href="/en/projects"><h3>Projects</h3></a>
                         <ul>
-                            <li><a href="/projecten/deze-website"><h4>Deze Website</h4></a></li>
+                            <li><a href="/en/projects/this-website"><h4>This Website</h4></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -29,15 +30,10 @@
    </div>
 
     <div id="overmij">
-    <h2>Over mij</h2>
+    <h2>About me</h2>
     </div>
 
-    <div id="taal">
-    <a href="/en/home">
-    <img src="/images/uk.png" alt="">
-    </a>
-    </div>
-
+    
 </div>
 
 <div id="overmijbox">
@@ -45,7 +41,7 @@
     <div id=overmijtekst>
 
         <h3>
-        <p>Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opdleiding Software developer op Landstede Zwolle. In mij vrije tijd speel ik games en kijk ik films en series op Netflix.</p>
+        <p>Hello, I'm Rick van Assen, 16 years old and I'm now following the Software Developer training at Landstede Zwolle. In my spare time I play games and watch movies and series on Netflix.</p>
         </h3>
 
     </div>

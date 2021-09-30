@@ -38,3 +38,18 @@ Route::get('/row', [\App\Http\Controllers\RowController::class,'rowItems']);
 
 Route::get('/date', [\App\Http\Controllers\DayController::class,'day']);
 
+Route::get('/en/home', function () {
+    return view('pages en.home');
+});
+
+Route::get('/en/projects', function () {
+    return view('pages en.projects');
+});
+
+Route::get('/en/about', function () {
+    return view('pages en.about');
+});
+
+Route::get('/en/projects/this-website', function () {
+    return view('pages en.thiswebsite');
+});

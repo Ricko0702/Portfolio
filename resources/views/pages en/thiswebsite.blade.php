@@ -1,7 +1,7 @@
 @extends('main')
 
 @section('title')
-    Deze website
+    this website
 @endsection
 
 @section('body')
@@ -12,36 +12,28 @@
 </div>
 
 <div id="home">
-<a href="/"><h2>Home</h2></a>
+<a href="/en/home"><h2>Home</h2></a>
 </div>
 
 <div id="projecten">
-    <h2>Projecten</h2>
+    <h2>Projects</h2>
 
 
    </div>
 
 <div id="overmij">
-<a href="/overmij"><h2>Over mij</h2></a>
+<a href="/en/about"><h2>About me</h2></a>
 </div>
-
-<div id=taal>
-    
-    <a href="/en/home">
-    <img src="/images/uk.png" alt="">
-    </a>
-
-    </div>
-
 </div>
 
 <div id="terug">
-    <a href="/projecten">Ga terug</a>
+    <a href="/en/projects">Go back</a>
 
 </div>
 
 <div id="dezewebsitetekst">
 
 </div>
+
 
 @endsection
