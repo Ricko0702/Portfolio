@@ -48,6 +48,22 @@
 
     </div>
 
+
+    <div id="contact">
+        <img src="/images/mail.png" alt="">
+        <p>rassen0134@student.landstede.nl</p>
+        <p>rickvanassen2@gmail.com</p>
+    </div>
+
+    <div id="socials">
+        <a href="https://www.instagram.com/rick.0702/">
+        <img src="/images/insta.png" alt="inst">
+        <p>Instagram</p>
+    </a>
+
+
+    </div>
+
 </div>
 
 @endsection
