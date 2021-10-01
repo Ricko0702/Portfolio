@@ -15,7 +15,7 @@
 
 <footer>
     <div id="copyright">
-        <p>Created by Rick van Assen. © 2021</p>
+        Created by Rick van Assen. © 2021
     </div>
 </footer>
 

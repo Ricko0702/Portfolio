@@ -45,7 +45,7 @@
     <div id=overmijtekst>
 
         <h3>
-        <p>Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opdleiding Software developer op Landstede Zwolle. In mij vrije tijd speel ik games en kijk ik films en series op Netflix.</p>
+        Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opdleiding Software developer op Landstede Zwolle. In mij vrije tijd speel ik games en kijk ik films en series op Netflix.
         </h3>
 
     </div>
@@ -58,8 +58,8 @@
 
     <div id="contact">
         <img src="/images/mail.png" alt="">
-        <p>rassen0134@student.landstede.nl</p>
-        <p>rickvanassen2@gmail.com</p>
+        rassen0134@student.landstede.nl
+        rickvanassen2@gmail.com
     </div>
 
     <div id="socials">
@@ -67,6 +67,11 @@
         <img src="/images/insta.png" alt="inst">
         <p>Instagram</p>
     </a>
+
+    <a href="https://www.linkedin.com/in/rick-van-assen/">
+        <img src="/images/link.png" alt="link">
+        <p>Linkedin</p>
+        </a>
 
 
     </div>

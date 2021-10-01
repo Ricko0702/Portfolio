@@ -24,11 +24,20 @@
     <div id="overmij">
     <a href="/en/about"><h2>About me</h2></a>
     </div>
+
+    <div id=taal>
+    
+    <a href="/">
+    <img src="/images/nl.png" alt="">
+    </a>
+
+    </div>
+
 </div>
 
 <div id="projectboxen">
     <div id="projectenbox">
-    <a href="/projects/this"><h2>This website</h2></a>
+    <a href="/en/projects/this-website"><h2>This website</h2></a>
     </div>
 
     <div id="projectenbox">

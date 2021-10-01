@@ -53,3 +53,6 @@ Route::get('/en/about', function () {
 Route::get('/en/projects/this-website', function () {
     return view('pages en.thiswebsite');
 });
+
+Route::get('/form', [\App\Http\Controllers\Formcontroller::class,'index']);
+Route::post('/form', [\App\Http\Controllers\Formcontroller::class,'store']);

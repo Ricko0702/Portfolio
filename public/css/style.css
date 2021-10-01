@@ -25,7 +25,6 @@ body {
 }
 
 #home {
-    width: 40px;
     display: flex;
     margin: auto;
 }
@@ -36,7 +35,6 @@ body {
 }
 
 #projecten {
-    width: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +60,18 @@ body {
 
 .typing-demo {
     width: 42%;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    color: white;
+    font-family: "Lucida Console";
+}
+
+.typing-demo1 {
+    width: 40%;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -190,8 +200,15 @@ p {
     color: white;
 }
 
+p:hover {
+    color: black;
+}
+
 #copyright {
-    margin-left: 600px;
+    display: flex;
+    font-family: "Lucida Console";
+    color: white;
+    justify-content: center;
 }
 
 #projectboxen {
@@ -203,6 +220,7 @@ p {
 
 #overmijbox {
     width: 500px;
+    height: 750px;
 }
 
 #overmijtekst {
@@ -216,6 +234,8 @@ p {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
+    font-family: "Lucida Console";
+    color: white;
 }
 
 #dezewebsitetekst {
@@ -248,25 +268,30 @@ p {
 }
 
 #contact {
-    height: 130px;
+    height: 100px;
     width: 320px;
     background-color: red;
     border: 2px black solid;
     border-radius: 5px;
     color: white;
     padding-left: 15px;
+    font-family: "Lucida Console";
+    padding-top: 15px;
 }
 
 #socials {
-    height: 100px;
-    width: 125px;
+    height: 120px;
+    width: 275px;
     background-color: red;
     border: 2px black solid;
     border-radius: 5px;
     margin-left: 1020px;
-    padding-top: 5px;
-    padding-left: 40px;
+    padding: auto;
+    padding-top: 20px;
     padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 #taal {

@@ -24,6 +24,15 @@
 <div id="overmij">
 <a href="/en/about"><h2>About me</h2></a>
 </div>
+
+<div id=taal>
+    
+    <a href="/">
+    <img src="/images/nl.png" alt="">
+    </a>
+
+</div>
+
 </div>
 
 <div id="terug">
