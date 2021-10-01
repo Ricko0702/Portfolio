@@ -46,7 +46,7 @@
 
 <div class="typen">
     <div class="typing-demo">
-        Welkom op mijn portfolio website.
+        Welkom op mijn portfolio-website.
     </div>
 </div>
 @endsection

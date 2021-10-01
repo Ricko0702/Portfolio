@@ -49,7 +49,7 @@
 
 <div class="typen">
 <div class="typing-demo1">
-    Welcome to my portfolio website.
+    Welcome to my portfolio-website.
 </div>
 </div>
 

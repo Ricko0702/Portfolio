@@ -45,7 +45,7 @@
     <div id=overmijtekst>
 
         <h3>
-        Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opdleiding Software developer op Landstede Zwolle. In mij vrije tijd speel ik games en kijk ik films en series op Netflix.
+        Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opleiding Software developer op Landstede Zwolle. In mij vrije tijd speel ik games en kijk ik films en series op Netflix.
         </h3>
 
     </div>
@@ -70,7 +70,7 @@
 
     <a href="https://www.linkedin.com/in/rick-van-assen/">
         <img src="/images/link.png" alt="link">
-        <p>Linkedin</p>
+        <p>LinkedIn</p>
         </a>
 
 
