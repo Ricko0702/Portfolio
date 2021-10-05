@@ -128,7 +128,7 @@ h2:hover {
 }
 
 h1 {
-    color: white;
+    color: black;
 }
 
 h4:hover {
@@ -214,8 +214,8 @@ p:hover {
 #projectboxen {
     height: 575px;
     font-family: "Lucida Console";
-    padding-left: 650px;
-    padding-top: 30px;
+    padding-left: 42vw;
+    padding-top: 5vh;
 }
 
 #overmijbox {
@@ -297,16 +297,40 @@ p:hover {
     margin-top: 15px;
 }
 
+
+/* Extra small devices (phones, 600px and down) */
+
 @media only screen and (max-width: 600px) {
-    #contact {
-        height: 100px;
-        width: 320px;
+    #navbar {
+        margin: auto;
+        height: 10%;
+        width: 98%;
+        display: flex;
         background-color: red;
-        border: 2px black solid;
-        border-radius: 5px;
-        color: white;
-        padding-left: 15px;
         font-family: "Lucida Console";
-        padding-top: 15px;
+    }
+    #logo {
+        display: none;
+    }
+    .typen {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .typing-demo {
+        display: none;
+    }
+    #projectboxen {
+        height: 575px;
+        font-family: "Lucida Console";
+        padding-left: 30vw;
+        padding-top: 5vh;
+    }
+    #projectboxen {
+        height: 575px;
+        font-family: "Lucida Console";
+        padding-left: 30vw;
+        padding-top: 5vh;
     }
 }
