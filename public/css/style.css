@@ -59,7 +59,7 @@ body {
 }
 
 .typing-demo {
-    width: 42%;
+    width: 42vw;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -224,13 +224,10 @@ p:hover {
 }
 
 #overmijtekst {
-    height: 140px;
-    width: 500px;
+    height: 10vw;
+    width: 30vw;
     margin-left: 15px;
     margin-top: 70px;
-    background-color: red;
-    border: 2px black solid;
-    border-radius: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
@@ -259,7 +256,7 @@ p:hover {
 #foto {
     height: 265px;
     width: 265px;
-    margin-left: 950px;
+    margin-left: 70vw;
     background-color: red;
     padding-top: 15px;
     padding-left: 15px;
@@ -277,6 +274,7 @@ p:hover {
     padding-left: 15px;
     font-family: "Lucida Console";
     padding-top: 15px;
+    margin-left: 15px;
 }
 
 #socials {
@@ -285,7 +283,7 @@ p:hover {
     background-color: red;
     border: 2px black solid;
     border-radius: 5px;
-    margin-left: 1020px;
+    margin-left: 70vw;
     padding: auto;
     padding-top: 20px;
     padding-bottom: 5px;
@@ -297,4 +295,18 @@ p:hover {
 #taal {
     margin-right: 20px;
     margin-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #contact {
+        height: 100px;
+        width: 320px;
+        background-color: red;
+        border: 2px black solid;
+        border-radius: 5px;
+        color: white;
+        padding-left: 15px;
+        font-family: "Lucida Console";
+        padding-top: 15px;
+    }
 }
