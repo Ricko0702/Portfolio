@@ -154,24 +154,14 @@ p:hover {
 }
 
 #projectboxen {
-    width: 100%;
     height: 600px;
     font-family: "Lucida Console";
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     margin-bottom: 50px;
-}
-
-#overmijbox {
-    width: 500px;
-    height: 750px;
+    margin-left: 10px;
 }
 
 #overmijtekst {
     height: 10vw;
-    width: 30vw;
     margin-left: 15px;
     margin-top: 70px;
     padding-left: 10px;
@@ -200,14 +190,15 @@ p:hover {
 }
 
 #foto {
-    height: 265px;
-    width: 265px;
-    margin-left: 70vw;
+    height: 285px;
+    width: 285px;
     background-color: red;
     padding-top: 15px;
     padding-left: 15px;
     border: 2px black solid;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #contact {
@@ -220,67 +211,76 @@ p:hover {
     padding-left: 15px;
     font-family: "Lucida Console";
     padding-top: 15px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #socials {
-    height: 120px;
+    height: 130px;
     width: 275px;
     background-color: red;
     border: 2px black solid;
     border-radius: 5px;
-    margin-left: 70vw;
     padding: auto;
     padding-top: 20px;
     padding-bottom: 5px;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 #taal {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    margin-left: 65%;
+    margin-left: 3%;
 }
 
+#overmijbox {
+    height: 750px;
+}
 
-/* Extra small devices (phones, 600px and down) */
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .logo {
         display: none;
     }
-    .typen {
-        height: 80vh;
+    #taal {
         display: flex;
+        justify-content: flex-end;
         align-items: center;
-        justify-content: center;
+        margin-left: 10%;
     }
-    .typing-demo {
-        width: 20vw;
-        animation: typing 1s steps(10), blink .5s step-end infinite alternate;
-        white-space: nowrap;
-        overflow: hidden;
-        border-right: 3px solid;
-        font-family: monospace;
-        font-size: 2em;
-        color: white;
-        font-family: "Lucida Console";
+    #foto {
+        height: 285px;
+        width: 285px;
+        background-color: red;
+        padding-top: 15px;
+        padding-left: 15px;
+        border: 2px black solid;
+        border-radius: 5px;
+        margin-top: 120px;
+        margin-left: 10px;
     }
 }
 
-#projectboxen {
-    height: 575px;
-    font-family: "Lucida Console";
-    padding-left: 30vw;
-    padding-top: 5vh;
-}
-
-#projectboxen {
-    height: 575px;
-    font-family: "Lucida Console";
-    padding-left: 30vw;
-    padding-top: 5vh;
+@media only screen and (max-width: 450px) {
+    .logo {
+        display: none;
+    }
+    #taal {
+        display: none;
+    }
+    #foto {
+        height: 285px;
+        width: 285px;
+        background-color: red;
+        padding-top: 15px;
+        padding-left: 15px;
+        border: 2px black solid;
+        border-radius: 5px;
+        margin-top: 150px;
+        margin-left: 10px;
+    }
 }
