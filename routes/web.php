@@ -3,6 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Daycontroller;
+use App\Http\Controllers\Rekencontroller;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,3 +57,6 @@ Route::get('/en/projects/this-website', function () {
 
 Route::get('/form', [\App\Http\Controllers\Formcontroller::class,'index']);
 Route::post('/form', [\App\Http\Controllers\Formcontroller::class,'store']);
+
+
+Route::get('/reken', [Rekencontroller::class,'index']);

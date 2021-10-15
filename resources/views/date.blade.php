@@ -11,11 +11,12 @@
 <body>
 <h1>My Rows</h1>
 
-@for
 
+<form method="post">
+    @csrf
+    <input type="text" name="number" >
 
-    
+</form>
 
-@endfor
 </body>
 </html>

@@ -1,3 +1,83 @@
+body {
+    font-family: 'Lucida Console';
+}
+
+.navbar {
+    width: 98%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    height: 90px;
+    padding: 10px 0;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+.logo {
+    width: 150px;
+    margin-top: -10px;
+}
+
+.logo img {
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 1vw;
+}
+
+nav {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.drop {
+    margin: 0px 10px;
+    padding-right: 35px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.drop:before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.dropmenu ul {
+    background-color: red;
+    border: 1px solid black;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+}
+
+.dropmenu:hover ul {
+    display: block;
+}
+
+.dropmenu ul li {
+    list-style: none;
+    display: flex;
+}
+
+.dropmenu ul li a {
+    width: 70px;
+    display: block;
+    padding: 5px 10px;
+}
+
+.dropmenu ul li a:hover {
+    color: black;
+}
+
 a:hover {
     color: black;
 }
@@ -7,79 +87,24 @@ a {
     color: white;
 }
 
-#navbar {
-    margin: auto;
-    height: 10%;
-    width: 98%;
-    display: flex;
-    background-color: red;
-    display: flex;
-    border: 5px solid rgb(233, 61, 61);
-    border-radius: 20px;
-    font-family: "Lucida Console";
-    border-style: groove;
-}
+#navbar {}
 
 body {
     background-color: #333;
 }
 
-#home {
+.home {
     display: flex;
-    margin: auto;
+    margin-left: 20px;
 }
 
-#overmij {
-    display: flex;
-    margin: auto;
-}
-
-#projecten {
+.welkomtekst {
+    height: 83vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#logo {
-    width: 30px;
-    display: flex;
-    margin: 25px;
-    justify-self: flex-start;
-}
-
-#tekstwelkom {
-    display: flex;
-}
-
-.typen {
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.typing-demo {
-    width: 42vw;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
     color: white;
-    font-family: "Lucida Console";
-}
-
-.typing-demo1 {
-    width: 40%;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    font-size: 2em;
-    color: white;
-    font-family: "Lucida Console";
+    font-family: 'Lucida Console';
 }
 
 #projectenbox {
@@ -96,38 +121,11 @@ body {
     color: white;
 }
 
-@keyframes typing {
-    from {
-        width: 0
-    }
-}
-
-@keyframes blink {
-    50% {
-        border-color: transparent
-    }
-}
-
-h4 {
-    color: white;
-    font-family: "Lucida Console";
-    background-color: red;
-    border: 5px solid rgb(233, 61, 61);
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    border-style: groove;
-}
-
 h2 {
     font-family: "Lucida Console";
 }
 
 h2:hover {
-    color: black;
-}
-
-h1 {
     color: black;
 }
 
@@ -137,62 +135,6 @@ h4:hover {
 
 a {
     color: #fff;
-}
-
-nav {
-    margin: auto;
-    height: 60px;
-    width: 60%;
-    display: flex;
-    background-color: red;
-    display: flex;
-    border-radius: 20px;
-    font-family: "Lucida Console";
-}
-
-nav ul {
-    padding: 0;
-    margin: -15px;
-    list-style: none;
-    position: relative;
-}
-
-nav a {
-    width: 200px;
-    display: block;
-    padding: 0 10px;
-    color: #FFF;
-    font-size: 20px;
-    line-height: 60px;
-    text-decoration: none;
-}
-
-nav ul ul {
-    visibility: hidden;
-    position: absolute;
-    top: 60px;
-    width: 50px;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-}
-
-nav ul li:hover>ul {
-    visibility: visible;
-    opacity: 1;
-}
-
-
-/* First Tier Dropdown */
-
-nav ul ul li {
-    width: 100px;
-    float: none;
-    display: block;
-    position: relative;
-}
-
-li :hover {
-    color: black;
 }
 
 p {
@@ -293,23 +235,17 @@ p:hover {
 }
 
 #taal {
-    margin-right: 20px;
-    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 65%;
 }
 
 
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    #navbar {
-        margin: auto;
-        height: 10%;
-        width: 98%;
-        display: flex;
-        background-color: red;
-        font-family: "Lucida Console";
-    }
-    #logo {
+    .logo {
         display: none;
     }
     .typen {
@@ -319,18 +255,28 @@ p:hover {
         justify-content: center;
     }
     .typing-demo {
-        display: none;
-    }
-    #projectboxen {
-        height: 575px;
+        width: 20vw;
+        animation: typing 1s steps(10), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2em;
+        color: white;
         font-family: "Lucida Console";
-        padding-left: 30vw;
-        padding-top: 5vh;
     }
-    #projectboxen {
-        height: 575px;
-        font-family: "Lucida Console";
-        padding-left: 30vw;
-        padding-top: 5vh;
-    }
+}
+
+#projectboxen {
+    height: 575px;
+    font-family: "Lucida Console";
+    padding-left: 30vw;
+    padding-top: 5vh;
+}
+
+#projectboxen {
+    height: 575px;
+    font-family: "Lucida Console";
+    padding-left: 30vw;
+    padding-top: 5vh;
 }
