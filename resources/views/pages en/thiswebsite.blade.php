@@ -12,6 +12,8 @@
 </div>
 
 <div id="dezewebsitetekst">
+This is my first project. I have used Laravel, HTML and CSS.
+On this website you can find all my projects.
 
 </div>
 

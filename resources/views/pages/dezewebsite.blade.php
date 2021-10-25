@@ -13,7 +13,8 @@
 </div>
 
 <div id="dezewebsitetekst">
-
+Dit is mijn eerste project. Ik heb gebruik gemaakt van laravel, html en css. 
+Op deze website kan je al mijn projecten vinden.
 
 </div>
 

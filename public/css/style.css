@@ -171,6 +171,9 @@ p:hover {
 
 #dezewebsitetekst {
     height: 510px;
+    padding-top: 10px;
+    color: white;
+    font-family: 'Lucida Console';
 }
 
 #terug {
