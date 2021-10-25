@@ -24,7 +24,7 @@
                     </div>
                     <ul>
                         <li>
-                            <a href="/en/projects.this-website">this website</a>
+                            <a href="/en/projects/this-website">this website</a>
                         </li>
                     </ul>
                 </div>
