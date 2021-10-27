@@ -60,3 +60,7 @@ Route::post('/form', [\App\Http\Controllers\Formcontroller::class,'store']);
 
 
 Route::get('/reken', [Rekencontroller::class,'index']);
+
+
+Route::get('/tafel', [\App\Http\Controllers\Tafelcontroller::class,'index']);
+Route::post('/tafel', [\App\Http\Controllers\Tafelcontroller::class,'store']);
