@@ -43,6 +43,7 @@ nav {
     cursor: pointer;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .drop:before {
@@ -62,6 +63,10 @@ nav {
 
 .dropmenu:hover ul {
     display: block;
+    position: absolute;
+    margin-top: 124px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .dropmenu ul li {

@@ -8,13 +8,21 @@ class Rekencontroller extends Controller
 {
     public function index(){
 
-        $total= [2,5,10,20,120];
-
-        $aantal= count($total);
-
-        echo $aantal;
-        
+        return view('reken')
     }
-
-
+    function public store(){
+    if($_POST['group1'] == add) {
+        echo "$first + $second";
+        }
+        else if($_POST['group1'] == subtract) {
+        echo "$first - $second";
+        }
+        else if($_POST['group1'] == times) {
+        echo "$first * $second";
+        }
+        else($_POST['group1'] == divide) {
+        echo "$first / $second";
+        }
+    }
 }
+

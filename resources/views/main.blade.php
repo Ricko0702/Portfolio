@@ -19,13 +19,14 @@
                 </div>
                 <div class="dropmenu">
                     <div class="drop">
-                        <a href="/projecten"><h3>projecten</h3></a>
+                        <a href="/projecten"><h3>projecten</h3></a>  
+                        <ul class="dropdown"> 
+                            <li>
+                                <a href="/projecten/deze-website">Deze website</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li>
-                            <a href="/projecten/deze-website">Deze website</a>
-                        </li>
-                    </ul>
+                  
                 </div>
                 <div class="overmij">
                     <a href="/overmij"><h3>overmij</h3></a>
