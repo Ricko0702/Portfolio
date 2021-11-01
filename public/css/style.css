@@ -292,3 +292,23 @@ p:hover {
         margin-left: 10px;
     }
 }
+
+@media only screen and (max-width: 330px) {
+    .logo {
+        display: none;
+    }
+    #taal {
+        display: none;
+    }
+    #foto {
+        height: 285px;
+        width: 285px;
+        background-color: red;
+        padding-top: 15px;
+        padding-left: 15px;
+        border: 2px black solid;
+        border-radius: 5px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+}

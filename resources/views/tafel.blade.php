@@ -3,6 +3,8 @@
 
 @section('body')
 
+
+<h1>Kies een tafel</h1>
     <form method="POST">
         @csrf
         <select name="Tafel">
