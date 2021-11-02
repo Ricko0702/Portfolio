@@ -12,32 +12,33 @@
 
 <header>
         <nav>
-            <div class="logo"> <img src="/images/logo.png" alt="logo"></div>
-                
+                <div class="logo"> <img src="/images/logo.png" alt="logo"></div>
+
 
                 <div class="home">
                         <a href="/en/home"><h3>home</h3></a>
                 </div>
                 <div class="dropmenu">
                     <div class="drop">
-                        <a href="/en/projects"><h3>projects</h3></a>
+                        <a href="/en/projects"><h3>projects</h3></a>  
+                        <ul class="dropdown"> 
+                            <li>
+                                <a href="/en/projects/this-website">this website</a>
+                            </li>
+                        </ul>
                     </div>
-                    <ul>
-                        <li>
-                            <a href="/en/projects/this-website">this website</a>
-                        </li>
-                    </ul>
+                  
                 </div>
                 <div class="overmij">
                     <a href="/en/about"><h3>about</h3></a>
                 </div>
 
                 <div id=taal>
-        
+
                 <a href="/">
                 <img src="/images/nl.png" alt="">
                 </a>
-            </div>
+                </div>
         </nav>
     </header>
     
