@@ -268,7 +268,7 @@ p:hover {
     .logo {
         display: none;
     }
-    #taal {
+    .taal {
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -291,7 +291,7 @@ p:hover {
     .logo {
         display: none;
     }
-    #taal {
+    .taal {
         display: none;
     }
     #foto {
@@ -311,7 +311,7 @@ p:hover {
     .logo {
         display: none;
     }
-    #taal {
+    .taal {
         display: none;
     }
     #foto {
