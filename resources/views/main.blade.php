@@ -11,7 +11,11 @@
 <body>
 <header>
         <nav>
-                <div class="logo"> <img src="/images/logo.png" alt="logo"></div>
+                <div class="logo"> 
+                    
+                    <a href="/">
+                        <img src="/images/logo.png" alt="logo"></div>
+                    </a>
 
 
                 <div class="home">

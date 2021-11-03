@@ -12,7 +12,11 @@
 
 <header>
         <nav>
-                <div class="logo"> <img src="/images/logo.png" alt="logo"></div>
+
+                <div class="logo"> 
+                    <a href="/en/home">
+                        <img src="/images/logo.png" alt="logo"></div>
+                    </a>
 
 
                 <div class="home">
@@ -36,7 +40,7 @@
                 <div class=taal>
 
                 <a href="@yield('taal')">
-                <img src="/images/nl.png" alt="">
+                    <img src="/images/nl.png" alt="">
                 </a>
                 </div>
 
