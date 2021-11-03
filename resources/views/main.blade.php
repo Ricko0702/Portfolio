@@ -38,6 +38,10 @@
                 <img src="/images/uk.png" alt="">
                 </a>
                 </div>
+
+                <div class="tijd">
+                de datum vandaag is <?php echo date("j F Y"); ?>.
+                </div>
         </nav>
     </header>
 

@@ -12,9 +12,8 @@
 </div>
 
 <div id="dezewebsitetekst">
-This is my first project. I have used Laravel, HTML and CSS.
+This is my first project. I have used Laravel, HTML and CSS. I have used flexbox in CSS. I also used PHP on some pages.
 On this website you can find all my projects.
-
 </div>
 
 

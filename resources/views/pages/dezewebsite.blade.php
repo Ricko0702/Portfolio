@@ -13,8 +13,8 @@
 </div>
 
 <div id="dezewebsitetekst">
-Dit is mijn eerste project. Ik heb gebruik gemaakt van laravel, html en css. 
-Op deze website kan je al mijn projecten vinden.
+Dit is mijn eerste project. Ik heb gebruik gemaakt van Laravel, HTML en CSS. Ik heb in CSS gebruik gemaakt van flexbox. Ik heb op sommige pagina's ook gebruik gemaakt van PHP.
+Op deze website kun je al mijn projecten vinden.
 
 </div>
 
