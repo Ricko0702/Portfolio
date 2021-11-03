@@ -4,6 +4,10 @@
     Home
 @endsection
 
+@section('taal')
+/en/home
+@endsection
+
 @section('body')
     
 

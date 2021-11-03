@@ -3,6 +3,10 @@
     Over mij
 @endsection
 
+@section('taal')
+/en/about
+@endsection
+
 @section('body')
 
 <div id="overmijbox">

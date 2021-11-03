@@ -4,6 +4,10 @@
     Home
 @endsection
 
+@section('taal')
+/
+@endsection
+
 @section('body')
 
 <div class="welkomtekst">

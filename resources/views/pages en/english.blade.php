@@ -33,9 +33,9 @@
                     <a href="/en/about"><h3>about</h3></a>
                 </div>
 
-                <div id=taal>
+                <div class=taal>
 
-                <a href="/">
+                <a href="@yield('taal')">
                 <img src="/images/nl.png" alt="">
                 </a>
                 </div>

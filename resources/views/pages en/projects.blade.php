@@ -4,6 +4,10 @@
     Projects
 @endsection
 
+@section('taal')
+/projecten
+@endsection
+
 @section('body')
 
 

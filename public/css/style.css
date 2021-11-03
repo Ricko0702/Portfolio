@@ -177,16 +177,24 @@ p:hover {
 }
 
 .tijd {
-    padding-top: 25px;
-    padding-left: 550px;
+    width: 30vw;
+    margin-top: 10px;
+    padding-left: 15px;
+    background-color: red;
+    border: 1px black solid;
+    border-radius: 3px;
 }
 
 #dezewebsitetekst {
-    height: 510px;
+    height: 71vh;
     width: 40vw;
     padding-top: 20px;
     color: white;
     font-family: 'Lucida Console';
+}
+
+.dezewebsitevoorbeeld {
+    padding-top: 50px;
 }
 
 #terug {
@@ -245,7 +253,7 @@ p:hover {
     margin-left: 10px;
 }
 
-#taal {
+.taal {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -254,12 +262,6 @@ p:hover {
 
 #overmijbox {
     height: 750px;
-}
-
-@media only screen and (max-width: 1317px) {
-    .tijd {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 800px) {

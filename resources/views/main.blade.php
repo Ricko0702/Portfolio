@@ -32,15 +32,11 @@
                     <a href="/overmij"><h3>overmij</h3></a>
                 </div>
 
-                <div id=taal>
+                <div class=taal>
 
-                <a href="/en/home">
+                <a href="@yield('taal')">
                 <img src="/images/uk.png" alt="">
                 </a>
-                </div>
-
-                <div class="tijd">
-                de datum vandaag is <?php echo date("j F Y"); ?>.
                 </div>
         </nav>
     </header>

@@ -4,6 +4,10 @@
 Projecten
 @endsection
 
+@section('taal')
+/en/projects
+@endsection
+
 @section('body')
 
 <div id="projectboxen">
