@@ -319,6 +319,9 @@ p:hover {
     header {
         height: 250px;
         border-radius: 5px;
+        width: 90%;
+        display: flex;
+        margin: auto;
     }
     .dropmenu ul li a {
         display: none;
