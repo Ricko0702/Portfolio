@@ -327,9 +327,18 @@ p:hover {
     .dropmenu ul li a {
         display: none;
     }
+    .dropmenu ul {
+        display: none;
+    }
+    .dropmenu ul li {
+        display: none;
+    }
     .dropmenu {
         display: flex;
         justify-content: center;
+    }
+    .dropdown {
+        display: none;
     }
     .home {
         margin-right: 25px;
@@ -338,7 +347,11 @@ p:hover {
         margin-right: 40px;
     }
     .welkomtekst {
-        margin-left: 15vw;
+        margin-left: 10vw;
+        height: 40vh;
+    }
+    footer {
+        margin-top: 130px;
     }
 }
 
