@@ -292,9 +292,6 @@ p:hover {
     .logo {
         display: none;
     }
-    .taal {
-        display: none;
-    }
     #foto {
         height: 285px;
         width: 285px;
@@ -306,6 +303,36 @@ p:hover {
         margin-top: 150px;
         margin-left: 10px;
     }
+    .navbar {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+    nav {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 40%;
+    }
+    header {
+        height: 250px;
+        border-radius: 5px;
+    }
+    .dropmenu ul li a {
+        display: none;
+    }
+    .dropmenu {
+        display: flex;
+        justify-content: center;
+    }
+    .home {
+        margin-right: 25px;
+    }
+    .taal {
+        margin-right: 40px;
+    }
 }
 
 @media only screen and (max-width: 330px) {
@@ -313,7 +340,7 @@ p:hover {
         display: none;
     }
     .taal {
-        display: none;
+        margin-right: 30px;
     }
     #foto {
         height: 285px;
