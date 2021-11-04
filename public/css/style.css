@@ -290,7 +290,8 @@ p:hover {
 
 @media only screen and (max-width: 450px) {
     .logo {
-        display: none;
+        display: flex;
+        justify-content: center;
     }
     #foto {
         height: 285px;
@@ -317,7 +318,7 @@ p:hover {
         height: 40%;
     }
     header {
-        height: 250px;
+        height: 300px;
         border-radius: 5px;
         width: 90%;
         display: flex;
@@ -339,9 +340,6 @@ p:hover {
 }
 
 @media only screen and (max-width: 330px) {
-    .logo {
-        display: none;
-    }
     .taal {
         margin-right: 30px;
     }
