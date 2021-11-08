@@ -4,6 +4,9 @@
     Home
 @endsection
 
+@section('home')
+active
+@endsection
 @section('taal')
 /en/home
 @endsection

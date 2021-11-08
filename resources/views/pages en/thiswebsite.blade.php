@@ -4,6 +4,10 @@
     this website
 @endsection
 
+@section('projecten')
+active
+@endsection
+
 @section('taal')
 /projecten/deze-website
 @endsection
@@ -25,6 +29,14 @@ On this website you can find all my projects.
     
     <div class="tijd">
     this is the date today: <?php echo date("j F Y"); ?>.
+    </div>
+
+    <div class="php">
+        <li>
+            <a href="/tafel">times tables</a>
+    
+        </li>
+        
     </div>
 
 </div>

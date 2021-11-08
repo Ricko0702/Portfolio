@@ -65,6 +65,9 @@ Route::get('/reken', [Rekencontroller::class,'index']);
 Route::get('/tafel', [\App\Http\Controllers\Tafelcontroller::class,'index']);
 Route::post('/tafel', [\App\Http\Controllers\Tafelcontroller::class,'store']);
 
+
+
+
 Route::get('/btw', [\App\Http\Controllers\BTWcontroller::class,'index']);
 Route::post('/btw', [\App\Http\Controllers\BTWcontroller::class,'store']);
 

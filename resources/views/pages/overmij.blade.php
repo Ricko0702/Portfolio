@@ -3,6 +3,9 @@
     Over mij
 @endsection
 
+@section('overmij')
+active
+@endsection
 @section('taal')
 /en/about
 @endsection

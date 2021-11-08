@@ -4,7 +4,7 @@
 @section('body')
 
 
-<h1>Kies een tafel</h1>
+<h1>Kies een tafel/Select a time table</h1>
     <form method="POST">
         @csrf
         <select name="Tafel">

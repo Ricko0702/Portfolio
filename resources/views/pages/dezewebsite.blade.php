@@ -4,6 +4,9 @@
     Deze website
 @endsection
 
+@section('projecten')
+active
+@endsection
 @section('taal')
 /en/projects/this-website
 @endsection
@@ -21,14 +24,22 @@ Dit is mijn eerste project. Ik heb gebruik gemaakt van Laravel, HTML en CSS. Ik 
 Op deze website kun je al mijn projecten vinden.
     
 <div class="dezewebsitevoorbeeld">
-    dit is een voorbeeld van PHP:
+    dit dit zijn een paar voorbeelden van PHP:
     </div>
     
     <div class="tijd">
         dit is de datum vandaag is <?php echo date("j F Y"); ?>.
     </div>
 
-
+    <div class="php">
+        <li>
+            <a href="/tafel">tafel generator</a>
+    
+        </li>
+        <li>
+            <a href="/btw">btw rekenmachine</a>
+        </li>
+    </div>
 </div>
 
 

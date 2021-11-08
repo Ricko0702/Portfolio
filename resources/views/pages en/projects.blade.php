@@ -4,6 +4,10 @@
     Projects
 @endsection
 
+@section('projecten')
+active
+@endsection
+
 @section('taal')
 /projecten
 @endsection

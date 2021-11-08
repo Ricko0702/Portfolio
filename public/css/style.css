@@ -54,6 +54,14 @@ nav {
     height: 32px;
 }
 
+.active.dropmenu a {
+    color: black;
+}
+
+.active.overmij a {
+    color: black;
+}
+
 .dropmenu ul {
     background-color: red;
     border: 1px solid black;
@@ -103,6 +111,11 @@ body {
     margin-left: 20px;
 }
 
+.active.home a {
+    display: flex;
+    color: black;
+}
+
 .welkomtekst {
     height: 83vh;
     display: flex;
@@ -137,10 +150,6 @@ h2:hover {
 
 h4:hover {
     color: black;
-}
-
-a {
-    color: #fff;
 }
 
 p {
@@ -263,6 +272,19 @@ p:hover {
 
 #overmijbox {
     height: 750px;
+}
+
+.php {
+    text-decoration: underline;
+}
+
+.php:hover {
+    color: rgb(1, 103, 255);
+}
+
+.php a:hover {
+    color: white;
+    background-color: rgb(1, 103, 255);
 }
 
 @media only screen and (max-width: 800px) {

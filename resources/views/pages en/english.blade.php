@@ -19,10 +19,10 @@
                     </a>
 
 
-                <div class="home">
+                <div class="@yield('home')home">
                         <a href="/en/home"><h3>home</h3></a>
                 </div>
-                <div class="dropmenu">
+                <div class="@yield('projecten')dropmenu">
                     <div class="drop">
                         <a href="/en/projects"><h3>projects</h3></a>  
                         <ul class="dropdown"> 
@@ -33,7 +33,7 @@
                     </div>
                   
                 </div>
-                <div class="overmij">
+                <div class="@yield('overmij')overmij">
                     <a href="/en/about"><h3>about</h3></a>
                 </div>
 

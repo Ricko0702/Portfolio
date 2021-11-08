@@ -18,10 +18,10 @@
                     </a>
 
 
-                <div class="home">
+                <div class="@yield('home')home">
                         <a href="/"><h3>home</h3></a>
                 </div>
-                <div class="dropmenu">
+                <div class="@yield('projecten')dropmenu">
                     <div class="drop">
                         <a href="/projecten"><h3>projecten</h3></a>  
                         <ul class="dropdown"> 
@@ -32,7 +32,7 @@
                     </div>
                   
                 </div>
-                <div class="overmij">
+                <div class="@yield('overmij')overmij">
                     <a href="/overmij"><h3>overmij</h3></a>
                 </div>
 
