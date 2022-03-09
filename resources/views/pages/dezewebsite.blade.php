@@ -28,7 +28,8 @@ Op deze website kun je al mijn projecten vinden.
     </div>
     
     <div class="tijd">
-        dit is de datum vandaag is <?php echo date("j F Y"); ?>.
+        dit is de datum vandaag is <?php setlocale(LC_TIME, 'NL_nl');
+        echo strftime('%e %B %Y') ?>.
     </div>
 
     <div class="php">
