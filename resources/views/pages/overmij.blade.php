@@ -22,6 +22,10 @@ active
 
     </div>
 
+    <a href="/images/cv van Rick Van Assen.pdf" download="cv van Rick Van Assen.pdf">
+    <button class="btn"><i class="fa fa-download"></i> Download CV</button>
+    </a>
+
     <div id="foto">
         <img src="/images/foto.jpg" alt="foto">
 

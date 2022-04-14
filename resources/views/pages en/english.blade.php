@@ -13,41 +13,39 @@
 <header>
         <nav>
 
-                <div class="logo"> 
+                <div class="logo">
                     <a href="/en/home">
                         <img src="/images/logo.png" alt="logo"></div>
                     </a>
 
 
                 <div class="@yield('home')home">
-                        <a href="/en/home"><h3>home</h3></a>
+                        <a href="/en/home"><h3>Home</h3></a>
                 </div>
                 <div class="@yield('projecten')dropmenu">
                     <div class="drop">
-                        <a href="/en/projects"><h3>projects</h3></a>  
-                        <ul class="dropdown"> 
-                            <li>
-                                <a href="/en/projects/this-website">this website</a>
-                            </li>
-                        </ul>
+                        <a href="/en/projects"><h3>Projects</h3></a>
                     </div>
-                  
+
                 </div>
                 <div class="@yield('overmij')overmij">
-                    <a href="/en/about"><h3>about</h3></a>
+                    <a href="/en/about"><h3>About</h3></a>
                 </div>
 
-                <div class=taal>
-
-                <a href="@yield('taal')">
-                    <img src="/images/nl.png" alt="">
-                </a>
+            <div class=taal>
+                <div class="dropdown">
+                    <button><h3>Taal/Language</h3></button>
+                    <div class="dropdown-content">
+                        <a href="/">NL</a>
+                        <a href="/en/home">EN</a>
+                    </div>
                 </div>
+            </div>
 
-                
+
         </nav>
     </header>
-    
+
     @yield('body')
 
 

@@ -23,6 +23,10 @@ Route::get('/overmij', function () {
     return view('pages.overmij');
 });
 
+Route::get('/projecten/mastermind', function () {
+    return view('pages.mastermind');
+});
+
 Route::get('/projecten', function () {
     return view('pages.projecten');
 });
