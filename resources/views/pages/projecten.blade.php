@@ -16,9 +16,9 @@ active
 
 <div id="projectboxen">
 
-    <div id="projectenbox">
-        <a href="/projecten/pecunia"><h2>Pecunia</h2></a>
-    </div>
+{{--    <div id="projectenbox">--}}
+{{--        <a href="/projecten/pecunia"><h2>Pecunia</h2></a>--}}
+{{--    </div>--}}
 
 
 

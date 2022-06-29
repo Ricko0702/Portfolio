@@ -20,7 +20,7 @@ active
     <div id=overmijtekst>
 
         <h3>
-        Hello, I'm Rick van Assen, 16 years old, and I'm now following the Software Developer training at Landstede Zwolle. In my spare time, I play games and watch movies and series on Netflix.
+        Hello, I'm Rick van Assen, 16 years old, and I'm now following the Software Developer training at Landstede Zwolle. In my spare time I program, I play games and watch movies and series on Netflix.
         </h3>
 
     </div>

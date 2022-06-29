@@ -25,9 +25,9 @@ active
             <a href="/en/projects/this-website"><h2>Mastermind</h2></a>
         </div>
 
-        <div id="projectenbox">
-            <a href="/en/projects/this-website"><h2>Pecunia</h2></a>
-        </div>
+{{--        <div id="projectenbox">--}}
+{{--            <a href="/en/projects/this-website"><h2>Pecunia</h2></a>--}}
+{{--        </div>--}}
 
 
 

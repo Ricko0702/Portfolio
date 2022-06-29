@@ -17,7 +17,7 @@ active
     <div id=overmijtekst>
 
         <h3>
-        Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opleiding Software developer op Landstede Zwolle. In mijn vrije tijd speel ik games en kijk ik films en series op Netflix.
+        Hallo ik ben Rick van Assen, 16 jaar en ik volg nu de opleiding Software developer op Landstede Zwolle. In mijn vrije tijd programmeer ik, speel ik games en kijk ik films en series op Netflix.
         </h3>
 
     </div>
