@@ -11,8 +11,17 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600&display=swap" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <script src="/js/blade.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
 
 
@@ -39,9 +48,9 @@
 
 
 <body>
-<nav class="navbar navbar-expand-lg" style="position: fixed; background-color: #d0f3b5; color: black">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar sticky-top" style="position: fixed; background-color: #d0f3b5; color: black">
+    <div class="container-fluid" style="position: fixed">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
             <span class="navbar-toggler-icon"></span>
         </button>
         <a class="navbar-brand" href="javascript:void(0);" onclick="scrollToTop()">
@@ -62,9 +71,55 @@
                     <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
                 </li>
 
+
+                <div class="dropdown nav-item">
+                    <button class="dropbtn nav-link"><i class="bi bi-caret-down-fill"></i> Taal</button>
+                    <div class="dropdown-content">
+                        <a href="/">Nederlands</a>
+                        <a href="/en">English</a>
+
+                    </div>
+                </div>
+
             </ul>
 
         </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav" style="width: 100px">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToTop()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()">Over mij</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()">Projecten</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
+                </li>
+
+
+                <div class="dropdown nav-item" style="background-color: white">
+                    <button class="dropbtn nav-link" style="background-color: white"><i class="bi bi-caret-down-fill"></i> Taal</button>
+                    <div class="dropdown-content">
+                        <a href="/">Nederlands</a>
+                        <a href="/en">English</a>
+
+                    </div>
+                </div>
+
+            </ul>
+
+        </div>
+    </div>
     </div>
 </nav>
 <section class="showcase-area" id="showcase">
@@ -135,12 +190,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Finance was een project waar we een soort van boekhoudsysteem moesten maken. In het project moesten we moesten uitgaven kunnen invoeren, aanpassen en verwijderen. Verder moest je een categorie. Dit hebben we gedaan met behulp van Laravel Eloquent. Dit project deed ik samen met een klasgenoot.</p>
+                    <p>Finance was een project waar we een soort van boekhoudsysteem moesten maken. In het project moesten we moesten uitgaven kunnen invoeren, aanpassen en verwijderen (een CRUD app). Verder moest je een categorie. Dit hebben we gedaan met behulp van Laravel Eloquent. Dit project deed ik samen met een klasgenoot.</p>
 
                 </div>
                 <div class="modal-footer">
-                    <span class="badge badge-pill" style="background-color: #787CB5;">php</span>
+                    <span class="badge badge-pill" style="background-color: #787CB5;">PHP</span>
                     <span class="badge badge-pill" style="background-color: #F05340;">Laravel</span>
+                    <span class="badge badge-pill" style="background-color: #E56027;">HTML</span>
+                    <span class="badge badge-pill" style="background-color: #2965F1;">CSS</span>
 
                     <a href="https://github.com/Ricko0702/Finance" class="btn btn-primary" target="_blank">
                         <i class="bi bi-github"></i>
@@ -162,12 +219,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>..</p>
+                    <p>Bij deze opdracht was het de bedoeling om het bordspel Mastermind moest namaken op een website. We hebben gebruik gemaakt van sessions van PHP om er voor te zorgen dat als je de pagina opnieuw laad dat je spel niet weg is en dat als het bord word geupdate het spel hervat kan worden naar waar je was. Dit was een opdracht samen met een duo. </p>
 
                 </div>
                 <div class="modal-footer">
-                    <span class="badge badge-pill" style="background-color: #787CB5;">php</span>
+                    <span class="badge badge-pill" style="background-color: #787CB5;">PHP</span>
                     <span class="badge badge-pill" style="background-color: #F05340;">Laravel</span>
+                    <span class="badge badge-pill" style="background-color: #E56027;">HTML</span>
+                    <span class="badge badge-pill" style="background-color: #2965F1;">CSS</span>
 
                     <a href="https://github.com/Ricko0702/Mastermind" class="btn btn-primary" target="_blank">
                         <i class="bi bi-github"></i>
@@ -182,41 +241,61 @@
 </section>
 
 <section id="contact">
-    <div class="contact-container container">
-        <div class="contact-img">
-            <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
-        </div>
-        @if(Session::has('success'))
-            <div class="alert alert-success">
-                {{Session::get('success')}}
+    <h2 style="text-align: center;font-size: 2.5rem;font-weight: 400;margin-bottom: 40px;text-transform: uppercase;color: #555;">Contact</h2>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <div class="site-logo">
+                        <a href="javascript:void(0);" onclick="scrollToTop()" style="text-decoration: none"><img src="images/favicon.png" alt="logo" width="30" height="24" style="margin-top: -5px">    Rick.</a>
+                    </div>
+                </div>
+                <div class=" text-center" >
+                    <ul class="list-unstyled social-icons">
+                        <li><a href="https://www.instagram.com/rick.0702/" target="_blank" class="in"><span class="icon-instagram"><i class="bi bi-instagram"></i></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/rick-van-assen/" target="_blank" class="li"><span class="icon-behance"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/Ricko0702" target="_blank" class="gh"><span class="icon-dribbble"><i class="bi bi-github"></i></span></a></li>
+                        <li><a href="mailto:rickva.dev@gmail.com" class="gm"><span class="icon-play"><i class="bi bi-envelope"></i></span></a></li>
+                    </ul>
+                </div>
             </div>
-        @endif
-        <form class="form-container" method="POST" action="{{ route('contact.us.store') }}" id="contactUSForm">
-            {{ csrf_field() }}
-        <div class="form-container">
-            <h2>Contact Us</h2>
-            <input type="text" name="name" class="form-control" placeholder="Your Name" value="{{ old('name') }}">
-            @if ($errors->has('name'))
-                <span class="text-danger">{{ $errors->first('name') }}</span>
-            @endif
-            <input type="text" name="email" class="form-control" placeholder="E-mail" value="{{ old('email') }}">
-            @if ($errors->has('email'))
-                <span class="text-danger">{{ $errors->first('email') }}</span>
-            @endif
-            <textarea
-                cols="30"
-                rows="6"
-                placeholder="Type Your Message"
 
+            <div class="row mb-5">
+                <div class="col-md-6 ">
+                    <ul class="nav-links list-unstyled nav-left">
 
-            >{{ old('message') }}</textarea>
-            @if ($errors->has('message'))
-                <span class="text-danger">{{ $errors->first('message') }}</span>
-            @endif
-            <a href="#" class="btn btn-primary">Submit</a>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <ul class="nav-links list-unstyled nav-right">
+                        <li>
+                            <a  href="javascript:void(0);" onclick="scrollToTop()">Home</a>
+                        </li>
+                        <li >
+                            <a  href="javascript:void(0);" onclick="scrollToAbout()">Over mij</a>
+                        </li>
+                        <li >
+                            <a  href="javascript:void(0);" onclick="scrollToProject()">Projecten</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col ">
+                    <div class="copyright">
+                        <p><small>Copyright 2022. All Rights Reserved.</small></p>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        </form>
-    </div>
+    </footer>
 </section>
 
 </body>
