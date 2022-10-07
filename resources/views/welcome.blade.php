@@ -139,7 +139,7 @@
     </div>
 </nav>
 <section class="showcase-area" id="showcase">
-    <div class="showcase-container">
+    <div class="showcase-container" >
     </div>
 </section>
 
