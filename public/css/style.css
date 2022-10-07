@@ -63,6 +63,16 @@ body {
     background-color: #3e8e41;
 }
 
+#offcanvas{
+    display: none;
+}
+
+@media (max-width: 990px) {
+    #offcanvas{
+        display: flex;
+    }
+}
+
 .slides-container {
     position: absolute;
     left: 0;
