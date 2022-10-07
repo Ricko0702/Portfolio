@@ -135,6 +135,18 @@
             }
         }
 
+        .showcase-area {
+            height: 50vh;
+            background: linear-gradient(
+                rgba(240, 240, 240, 0.144),
+                rgba(255, 255, 255, 0.336)
+            ),
+            url("/images/logo.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
     </style>
     </div>
 </nav>
