@@ -267,18 +267,20 @@
 
 <section id="contact">
     <h2 style="text-align: center;font-size: 2.5rem;font-weight: 400;margin-bottom: 40px;text-transform: uppercase;color: #555;">Contact</h2>
-
+    
     <footer class="footer">
 
         <div class="container">
+
 
             <div class="row mb-5">
                 <div class="col-md-4">
                     <div class="site-logo">
                         <a href="javascript:void(0);" onclick="scrollToTop()" style="text-decoration: none"><img src="images/favicon.png" alt="logo" width="30" height="24" style="margin-top: -5px">    Rick.</a>
+
                     </div>
                 </div>
-                <div class=" text-center" >
+                <div  style="display: flex; justify-content: center">
                     <ul class="list-unstyled social-icons">
                         <li><a href="https://www.instagram.com/rick.0702/" target="_blank" class="in"><span class="icon-instagram"><i class="bi bi-instagram"></i></span></a></li>
                         <li><a href="https://www.linkedin.com/in/rick-van-assen/" target="_blank" class="li"><span class="icon-behance"><i class="bi bi-linkedin"></i></span></a></li>
@@ -289,13 +291,8 @@
             </div>
 
             <div class="row mb-5">
-                <div class="col-md-6 ">
-                    <ul class="nav-links list-unstyled nav-left">
-
-                    </ul>
-                </div>
-                <div class="text-center">
-                    <ul class="nav-links list-unstyled nav-right">
+                <div style="display: flex; justify-content: center">
+                    <ul class="nav-links">
                         <li>
                             <a  href="javascript:void(0);" onclick="scrollToTop()">Home</a>
                         </li>
@@ -313,7 +310,7 @@
             </div>
             <div class="row">
                 <div class="col ">
-                    <div class="copyright">
+                    <div class="copyright" style="display: flex; justify-content: center">
                         <p><small>Copyright 2022. All Rights Reserved.</small></p>
                     </div>
                 </div>
