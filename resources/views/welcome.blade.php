@@ -62,10 +62,10 @@
                     <a class="nav-link" href="javascript:void(0);" onclick="scrollToTop()">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()">About me</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()">Over mij</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()">Projects</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()">Projecten</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
@@ -100,10 +100,10 @@
                     <a class="nav-link" href="javascript:void(0);" onclick="scrollToTop()">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()">About me</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()">Over mij</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()">Projects</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()">Projecten</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
