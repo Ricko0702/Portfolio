@@ -169,11 +169,12 @@
                 </li>
                 <li> <strong>Experiences:</strong>  PHP, Laravel, JavaScript, HTML en CSS
                 </li>
+                <a href="/images/cv van Rick Van Assen.pdf" class="btn btn-primary" download="cv van Rick van Assen">Download mijn CV</a>
             </ul>
 
             Hallo, mijn naam is Rick van Assen, {{ $age }} jaar oud en ik volg nu de opleiding Software developer bij Landstede Zwolle. In mijn vrije tijd programmeer ik graag, speel ik games, kijk ik films en series op Netflix en ga ik graag uit met vrienden.</div>
 
-            <a href="/images/cv van Rick Van Assen.pdf" class="badge badge-pill" download="cv van Rick van Assen">Download mijn CV</a>
+
 
         <div class="about-img">
             <img class="img-fluid" src="images/foto.png" alt="picture" style="border: 10px transparent; border-radius: 5%;"/>

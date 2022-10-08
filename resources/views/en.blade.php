@@ -169,6 +169,7 @@
                 </li>
                 <li> <strong>Experiences:</strong>  PHP, Laravel, JavaScript, HTML en CSS
                 </li>
+                <a href="/images/cv van Rick Van Assen.pdf" class="btn btn-primary" download="cv van Rick van Assen">Download my resume</a>
             </ul>
 
             Hello, my name is Rick van Assen, {{ $age }} years old and I am now following the Software developer training at Landstede Zwolle. In my spare time I like to code, play games and watch movies and series on Netflix and I like to go out with friends.
