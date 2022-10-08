@@ -73,7 +73,7 @@
 
 
                 <div class="dropdown nav-item" style="background-color: #d0f3b5;">
-                    <button class="dropbtn nav-link" style="background-color: #d0f3b5"><i class="bi bi-caret-down-fill"></i> Language</button>
+                    <button class="dropbtn nav-link" style="background-color: #d0f3b5"><i class="bi bi-caret-down-fill"></i> Taal</button>
                     <div class="dropdown-content">
                         <a href="/">Nederlands</a>
                         <a href="/en">English</a>
