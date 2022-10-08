@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class Age1Controller extends Controller
+class AgeController extends Controller
 {
     public function index()
     {
@@ -17,7 +17,7 @@ class Age1Controller extends Controller
             : (date("Y") - $birthDate[2]));
 
 
-        return view('en')
+        return view('welcome')
             ->with('age',$age);
     }
 }

@@ -16,8 +16,7 @@ use App\Http\Controllers\Rekencontroller;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::resource('/', \App\Http\Controllers\Age1Controller::class);
+Route::resource('/', \App\Http\Controllers\AgeController::class);
+
+Route::resource('/en', \App\Http\Controllers\Age1Controller::class);

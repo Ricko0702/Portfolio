@@ -158,27 +158,24 @@
 <section id="about">
     <div class="about-wrapper container">
         <div class="about-text">
-            <p class="small">Over Mij</p>
+            <p class="small">About me</p>
             <h2>Rick van Assen</h2>
             <ul>
                 <li>
-                    <strong>leeftijd:</strong> {{ $age }}
+                    <strong>Age:</strong> {{ $age }}
                 </li>
                 <li>
-                    <strong>Hobbies:</strong> Programmeren, Gamen, Formule 1, Voetbal, films kijken en uitgaan met vrienden
+                    <strong>Hobbies:</strong> Coding, Gamen, Formule 1, Soccer, watching movies and going out with friends
                 </li>
                 <li> <strong>Experiences:</strong>  PHP, Laravel, JavaScript, HTML en CSS
                 </li>
             </ul>
 
-            Hallo, mijn naam is Rick van Assen, {{ $age }} jaar oud en ik volg nu de opleiding Software developer bij Landstede Zwolle. In mijn vrije tijd programmeer ik graag, speel ik games, kijk ik films en series op Netflix en ga ik graag uit met vrienden.</div>
-
-            <a href="/images/cv van Rick Van Assen.pdf" class="badge badge-pill" download="cv van Rick van Assen">Download mijn CV</a>
-
+            Hello, my name is Rick van Assen, {{ $age }} years old and I am now following the Software developer training at Landstede Zwolle. In my spare time I like to code, play games and watch movies and series on Netflix and I like to go out with friends.
+        </div>
         <div class="about-img">
             <img class="img-fluid" src="images/foto.png" alt="picture" style="border: 10px transparent; border-radius: 5%;"/>
         </div>
-
     </div>
 </section>
 <section id="project" style="    display: flex; flex-direction: column; align-items: center;">
@@ -220,7 +217,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>Finance was een project waarbij we een soort boekhoudsysteem moesten opzetten. In het project moesten we uitgaven kunnen invoeren, wijzigen en verwijderen (een CRUD-app). Je had ook een categorie nodig. We hebben dit gedaan met Laravel Eloquent. Ik heb dit project samen met een klasgenoot gedaan.</p>
+                    <p>Finance was a project where we had to create some sort of accounting system. In the project we had to be able to enter, modify and delete expenses (a CRUD app). You also needed a category. We did this using Laravel Eloquent. I did this project together with a classmate.</p>
                 </div>
                 <div class="modal-footer">
                     <span class="badge badge-pill" style="background-color: #787CB5;">PHP</span>
@@ -248,7 +245,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p> Bij deze opdracht was het de bedoeling om het bordspel Mastermind te kopiëren op een website. We hebben PHP sessions gebruikt om ervoor te zorgen dat als je de pagina opnieuw laadt, je het spel niet kwijt bent en als het bord wordt bijgewerkt, het spel kan worden hervat waar je was. Dit was een opdracht samen met een duo. </p>
+                    <p> With this assignment, the intention was to copy the board game Mastermind on a website. We have used PHP sessions to ensure that if you reload the page your game is not gone and if the board is updated the game can be resumed to where you were. This was an assignment together with a duo. </p>
                 </div>
                 <div class="modal-footer">
                     <span class="badge badge-pill" style="background-color: #787CB5;">PHP</span>
@@ -300,10 +297,10 @@
                             <a  href="javascript:void(0);" onclick="scrollToTop()">Home</a>
                         </li>
                         <li >
-                            <a  href="javascript:void(0);" onclick="scrollToAbout()">Over mij</a>
+                            <a  href="javascript:void(0);" onclick="scrollToAbout()">About me</a>
                         </li>
                         <li >
-                            <a  href="javascript:void(0);" onclick="scrollToProject()">Projecten</a>
+                            <a  href="javascript:void(0);" onclick="scrollToProject()">Projects</a>
                         </li>
                         <li>
                             <a href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
