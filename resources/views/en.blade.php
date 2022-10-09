@@ -97,16 +97,16 @@
         <div class="offcanvas-body">
             <ul class="nav" id="ennav">
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToTop()">Home</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToTop()" data-bs-dismiss="offcanvas">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()">About me</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToAbout()" data-bs-dismiss="offcanvas">About me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()">Projects</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToProject()" data-bs-dismiss="offcanvas">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()">Contact</a>
+                    <a class="nav-link" href="javascript:void(0);" onclick="scrollToContact()" data-bs-dismiss="offcanvas">Contact</a>
                 </li>
 
 
